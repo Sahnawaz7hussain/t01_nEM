@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+.pinInput {
+  height: 40px;
+  width: 40px;
+  font-size: 22px;
+  margin: 16px 4px;
+  text-align: center;
+}
+.creditCard {
+  height: 220px;
+  width: 380px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin: auto;
+  background-color: lightcyan;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+.cardInput {
+  height: 40px;
+  width: 60px;
+  font-size: 20px;
+  margin: 16px 4px;
+  text-align: center;
+}
