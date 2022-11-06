@@ -20,7 +20,6 @@ const AddProduct = () => {
       ...newProduct,
       [name]: value,
     });
-    // console.log();
   };
   const handleAddProductOnClick = () => {
     if (
@@ -30,7 +29,6 @@ const AddProduct = () => {
       newProduct.price
     ) {
       dispatch(addNewProductActionFn(newProduct)).then((res) => {
-        // console.log("add function res", newProductPlate);
         navigate("/");
       });
       setNewProduct(newProductPlate);

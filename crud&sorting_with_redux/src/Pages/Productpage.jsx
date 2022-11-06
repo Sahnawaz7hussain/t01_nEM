@@ -35,10 +35,6 @@ const Productpage = () => {
     <div style={{ width: "100%" }}>
       {isError && <h4>Something wend wrong....</h4>}
       <div>
-        {/* 
-        1. Map through the product list items, and render them inside the "ProductCard.jsx", by passing the data through props
-        2.  Use the inbuilt sort method before mapping through the data to show them in "asc" or "desc" order, based on URL Search Params 
-        */}
         {products?.map((el) => (
           <ProductCard
             key={el.id}

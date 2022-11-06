@@ -40,7 +40,6 @@ const Editpage = () => {
       dispatch(updateProductActionFn(id, newdata)).then((res) => {
         navigate("/");
       });
-      // console.log("edit products::", price);
     }
   };
   return (
