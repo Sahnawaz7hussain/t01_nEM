@@ -10,7 +10,6 @@ const getProductsFailure = () => {
   return { type: types.GET_PRODUCTS_FAILURE };
 };
 export const getProductsActionFn = (sortBy) => (dispatch) => {
-  // console.log("data:::", data);
   dispatch(getProductsRequest());
   return axios
     .get(`http://localhost:8080/products?_sort=name&_order=${sortBy}`)
