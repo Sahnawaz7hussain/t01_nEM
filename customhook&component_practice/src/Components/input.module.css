@@ -1,0 +1,33 @@
+/* SIZE  */
+.sm {
+  height: 14px;
+  width: 150px;
+}
+.md {
+  height: 18px;
+  width: 220px;
+}
+.lg {
+  height: 28px;
+  width: 300px;
+  font-size: 16px;
+}
+.xl {
+  height: 35px;
+  width: 350px;
+  font-size: 20px;
+}
+/* VARIANTS  */
+.outline {
+  border: 2px solid black;
+}
+.filled {
+  border: 1px transparent;
+  background-color: rgb(139, 138, 138);
+}
+.flushed {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid gray;
+}
