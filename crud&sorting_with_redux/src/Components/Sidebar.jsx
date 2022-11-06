@@ -15,7 +15,6 @@ const Sidebar = () => {
     sortBy && (params.sortBy = sortBy);
     setSearchParams(params);
   }, [searcParams, sortBy, setSortBy]);
-  // console.log("sort by", sortBy);
   return (
     <div style={{ minWidth: "250px" }}>
       <h3>Sort By</h3>
